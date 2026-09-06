@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Pckebstock2627/',   // ← أضف هذا السطر
   plugins: [react()],
   resolve: {
     alias: {
