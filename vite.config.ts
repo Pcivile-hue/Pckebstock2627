@@ -2,9 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Pckebstock2627/',   // ← أضف هذا السطر
+  base: '/Pckebstock2627/',   // ← هذا السطر ضروري جداً
   plugins: [react()],
   resolve: {
     alias: {
